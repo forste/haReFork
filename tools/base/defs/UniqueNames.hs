@@ -7,7 +7,7 @@ import HasBaseName
 --import NoEq
 import qualified SrcLoc1 as L
 import Maybe(fromMaybe)
-import Data.Generics
+import Data.Generics hiding (empty)
 
 -- Types to decorate identifiers to make them unique
 
